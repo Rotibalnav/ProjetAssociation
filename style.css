@@ -27,10 +27,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 body {
   background-color: var(--bs-secondary);
+}
+section {
+  margin: 20px;
 }
 h1{
     color:var(--bs-cyan);
@@ -77,4 +80,7 @@ ol, ul {
   opacity: 0%;
   transition-duration: 0.5s;
   margin-bottom: -4%;
+}
+#multiCollapseExample1 {
+  margin: 8px;
 }
